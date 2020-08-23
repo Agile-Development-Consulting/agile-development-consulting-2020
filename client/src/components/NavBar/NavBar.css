@@ -1,0 +1,36 @@
+nav {
+  background: #ffffff;
+}
+
+nav ul a {
+  color: #141431;
+  font-size: 1.2em;
+  margin: 0 1vw;
+}
+
+nav .brand-logo {
+  color: #141431;
+}
+
+nav .brand-logo img {
+  width: 4rem;
+}
+
+nav .sidenav-trigger {
+  float: right;
+  color: #141431;
+}
+
+@media only screen and (max-width: 600px) {
+  #mobile-nav a {
+    color: #141431;
+  }
+  #mobile-nav {
+    background: #ffffff;
+  }
+}
+@media only screen and (min-width: 992px) {
+  nav .brand-logo {
+    margin-left: 2.5rem;
+  }
+}
