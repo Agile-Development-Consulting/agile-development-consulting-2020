@@ -18,7 +18,7 @@ router.post("/api/mail", (req, res) => {
   var mailOptions = {
     from: process.env.GMAIL_EMAIL,
     to: process.env.MY_EMAIL_ADDRESS,
-    subject: `Message from ${req.body.email}`,
+    subject: `Message for Agile Development Consulting from ${req.body.email}`,
     html: `${req.body.message}`,
   };
   transporter.sendMail(mailOptions, function (error, info) {
