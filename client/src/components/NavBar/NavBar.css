@@ -1,15 +1,15 @@
 nav {
-  background: #ffffff;
+  background: #dfe4e7;
 }
 
 nav ul a {
-  color: #141431;
+  color: #243b85;
   font-size: 1.2em;
   margin: 0 1vw;
 }
 
 nav .brand-logo {
-  color: #141431;
+  color: #243b85;
 }
 
 nav .brand-logo img {
@@ -18,12 +18,12 @@ nav .brand-logo img {
 
 nav .sidenav-trigger {
   float: right;
-  color: #141431;
+  color: #243b85;
 }
 
 @media only screen and (max-width: 600px) {
   #mobile-nav a {
-    color: #141431;
+    color: #243b85;
   }
   #mobile-nav {
     background: #ffffff;

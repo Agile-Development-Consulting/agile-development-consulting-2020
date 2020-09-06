@@ -36,7 +36,7 @@ const Consultation = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="container" id="contact">
         <div className="row">
           <div className="col s12 center-align">
             <h1>Let's Get Started!</h1>

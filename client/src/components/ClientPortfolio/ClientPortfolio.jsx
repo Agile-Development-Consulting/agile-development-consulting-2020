@@ -3,7 +3,7 @@ import "./ClientPortfolio.css";
 
 const ClientPortfolio = () => {
   return (
-    <div id="client-portfolio">
+    <div id="portfolio">
       <div className="container">
         <div className="row">
           <div className="col s12 center-align">

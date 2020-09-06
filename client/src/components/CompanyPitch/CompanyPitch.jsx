@@ -8,7 +8,6 @@ const CompanyPitch = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       let newIndex = currentWordIndex + 1;
-      console.log(newIndex);
       if (newIndex < words.length) {
         setCurrentWordIndex(newIndex);
       } else {
@@ -19,7 +18,7 @@ const CompanyPitch = () => {
   }, [currentWordIndex, words.length]);
 
   return (
-    <div className="container">
+    <div className="container" id="about">
       <div className="row">
         <div className="col s12 center-align">
           <h3>What could your company do with more time?</h3>
